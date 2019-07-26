@@ -2145,39 +2145,39 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       192         40          0          0         48       1853   adc.o
-       416         80          0          0        344       3331   bsp_can.o
-       136         18          0          0          0       1606   bsp_gpio.o
-        44          4          0          4          0       1739   device_led.o
-       440         20          0         80          0       2836   device_m2006.o
-        72          4          0          0          0        609   filter.o
-       326         28          0          0          0     645461   main.o
-       828        108          0          8        522       4421   module_chassis.o
-       434         18          0          0       1036       5026   oled.o
-       300         20          0          0          0        761   pid.o
-       320         22          0         18         44       2543   protocal.o
-       200         44          0          0         88       1817   spi.o
-        36          8        336          0       1024        852   startup_stm32f105xc.o
-       132         22          0          4          0       4039   stm32f1xx_hal.o
-       610         24          0          0          0       3132   stm32f1xx_hal_adc.o
-      2028         28          0          0          0       6868   stm32f1xx_hal_can.o
-       228         14          0          0          0      27533   stm32f1xx_hal_cortex.o
-       304          8          0          0          0       1219   stm32f1xx_hal_dma.o
-       466         34          0          0          0       2740   stm32f1xx_hal_gpio.o
-       432         34          0          4          0       2172   stm32f1xx_hal_msp.o
-      1532        116          0          0          0       6044   stm32f1xx_hal_rcc.o
-       538          0          0          0          0       3047   stm32f1xx_hal_spi.o
-       130          0          0          0          0       1151   stm32f1xx_hal_spi_ex.o
-       910         16          0          0          0       9759   stm32f1xx_hal_tim.o
-        84          0          0          0          0       2514   stm32f1xx_hal_tim_ex.o
-      1398         10          0          0          0       8650   stm32f1xx_hal_uart.o
-       102         36          0          0          0       7296   stm32f1xx_it.o
-        84         16         24          4          0       1351   system_stm32f1xx.o
-       236         48          0          6         64       2505   tim.o
-       700        158          0          2        128       4140   usart.o
+       192         40          0          0         48       1513   adc.o
+       416         80          0          0        344       2815   bsp_can.o
+       136         18          0          0          0       1346   bsp_gpio.o
+        44          4          0          4          0       1487   device_led.o
+       440         20          0         80          0       2400   device_m2006.o
+        72          4          0          0          0        521   filter.o
+       326         28          0          0          0     643473   main.o
+       828        108          0          8        522       3825   module_chassis.o
+       434         18          0          0       1036       4338   oled.o
+       300         20          0          0          0        677   pid.o
+       320         22          0         18         44       2207   protocal.o
+       200         44          0          0         88       1473   spi.o
+        36          8        336          0       1024        776   startup_stm32f105xc.o
+       132         22          0          4          0       3439   stm32f1xx_hal.o
+       610         24          0          0          0       2788   stm32f1xx_hal_adc.o
+      2028         28          0          0          0       6176   stm32f1xx_hal_can.o
+       228         14          0          0          0      26769   stm32f1xx_hal_cortex.o
+       304          8          0          0          0       1047   stm32f1xx_hal_dma.o
+       466         34          0          0          0       2480   stm32f1xx_hal_gpio.o
+       432         34          0          4          0       1828   stm32f1xx_hal_msp.o
+      1532        116          0          0          0       5444   stm32f1xx_hal_rcc.o
+       538          0          0          0          0       2707   stm32f1xx_hal_spi.o
+       130          0          0          0          0        983   stm32f1xx_hal_spi_ex.o
+       910         16          0          0          0       8555   stm32f1xx_hal_tim.o
+        84          0          0          0          0       2170   stm32f1xx_hal_tim_ex.o
+      1398         10          0          0          0       7602   stm32f1xx_hal_uart.o
+       102         36          0          0          0       5996   stm32f1xx_it.o
+        84         16         24          4          0       1087   system_stm32f1xx.o
+       236         48          0          6         64       2073   tim.o
+       700        158          0          2        128       3544   usart.o
 
     ----------------------------------------------------------------------
-     13684        978        392        132       3308     767015   Object Totals
+     13684        978        392        132       3308     751539   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         26          0          0          2         10          0   (incl. Padding)
 
@@ -2230,8 +2230,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     15056        994        392        132       3308     761787   Grand Totals
-     15056        994        392        132       3308     761787   ELF Image Totals
+     15056        994        392        132       3308     746311   Grand Totals
+     15056        994        392        132       3308     746311   ELF Image Totals
      15056        994        392        132          0          0   ROM Totals
 
 ==============================================================================

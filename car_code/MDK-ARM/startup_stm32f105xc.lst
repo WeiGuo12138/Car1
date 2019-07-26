@@ -579,17 +579,10 @@ ARM Macro Assembler    Page 9
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=gx_logistics_mc\startup_stm32f105xc.d -ogx_logistics_mc\startup_st
-m32f105xc.o -IC:\Users\Administrator\Desktop\轮式\电控\代码\CAR1_B_V0.0.3\CAR1_
-B_V0.0.2--7.17.10.34(自己场地调好)\MDK-ARM\RTE -ID:\keil5\ARM\PACK\Keil\STM32F1
-xx_DFP\1.0.5\Device\Include -ID:\keil5\ARM\CMSIS\Include --predefine="__MICROLI
-B SETA 1" --predefine="__UVISION_VERSION SETA 514" --predefine="STM32F10X_CL SE
-
-
-
-ARM Macro Assembler    Page 10 
-
-
-TA 1" --list=startup_stm32f105xc.lst startup_stm32f105xc.s
+m32f105xc.o -IE:\Gitspace\Car1\car_code\MDK-ARM\RTE -ID:\keil5\ARM\PACK\Keil\ST
+M32F1xx_DFP\1.0.5\Device\Include -ID:\keil5\ARM\CMSIS\Include --predefine="__MI
+CROLIB SETA 1" --predefine="__UVISION_VERSION SETA 514" --predefine="STM32F10X_
+CL SETA 1" --list=startup_stm32f105xc.lst startup_stm32f105xc.s
 
 
 
