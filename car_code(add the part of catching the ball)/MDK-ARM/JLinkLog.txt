@@ -1,0 +1,28 @@
+
+T0188 000:575 SEGGER J-Link V4.90 Log File (0001ms, 0272ms total)
+T0188 000:575 DLL Compiled: Jul 28 2014 10:35:20 (0001ms, 0272ms total)
+T0188 000:575 Logging started @ 2019-08-03 00:59 (0001ms, 0272ms total)
+T0188 000:576 JLINK_SetWarnOutHandler(...) (0000ms, 0272ms total)
+T0188 000:576 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+Hardware: V8.00
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDB  returns O.K. (0268ms, 0540ms total)
+T0188 000:844 JLINK_SetErrorOutHandler(...) (0000ms, 0540ms total)
+T0188 000:844 JLINK_ExecCommand("ProjectFile = "C:\Users\Administrator\Desktop\轮式\电控\代码\CAR1_B_V0.0.3\CAR1_B_V0.0.2--7.17.10.34(自己场地调好)\MDK-ARM\JLinkSettings.ini"", ...)  returns 0x00 (0002ms, 0542ms total)
+T0188 000:867 JLINK_ExecCommand("Device = STM32F105R8", ...)Device "STM32F105R8" selected (64 KB flash, 20 KB RAM).  returns 0x00 (0005ms, 0547ms total)
+T0188 000:872 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0547ms total)
+T0188 000:872 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0547ms total)
+T0188 000:872 JLINK_GetDLLVersion()  returns 49000 (0000ms, 0547ms total)
+T0188 000:872 JLINK_GetFirmwareString(...) (0000ms, 0547ms total)
+T0188 000:881 JLINK_GetDLLVersion()  returns 49000 (0000ms, 0547ms total)
+T0188 000:881 JLINK_GetCompileDateTime() (0000ms, 0547ms total)
+T0188 000:887 JLINK_GetFirmwareString(...) (0000ms, 0547ms total)
+T0188 000:891 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 0547ms total)
+T0188 000:901 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 0548ms total)
+T0188 000:902 JLINK_SetSpeed(1000) (0000ms, 0548ms total)
+T0188 000:902 JLINK_GetId() >0x108 TIF> >0x108 TIF>STM32Fxxxx: Cannot attach to CPU. Trying connect under reset. >0x108 TIF> >0x108 TIF>  returns 0x00000000 (0516ms, 1064ms total)
+T0E04 000:902 
+  ***** Error: Connection to emulator lost! (5007ms, 6071ms total)
+T0188 117:124 JLINK_Close() (0001ms, 1065ms total)
+T0188 117:124  (0001ms, 1065ms total)
+T0188 117:124 Closed (0001ms, 1065ms total)
